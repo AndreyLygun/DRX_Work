@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using Sungero.Core;
 using Sungero.CoreEntities;
+using RRU.Draws.Document;
 
-namespace RRU.Module1.Client
+namespace RRU.Draws.Shared
 {
-  public class ModuleFunctions
+  partial class DocumentFunctions
   {
 
   }

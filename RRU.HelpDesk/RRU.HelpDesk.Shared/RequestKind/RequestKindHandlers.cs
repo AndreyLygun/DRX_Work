@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using Sungero.Core;
 using Sungero.CoreEntities;
+using RRU.HelpDesk.RequestKind;
 
-namespace RRU.Module1.Client
+namespace RRU.HelpDesk
 {
-  public class ModuleFunctions
+  partial class RequestKindSharedHandlers
   {
 
   }

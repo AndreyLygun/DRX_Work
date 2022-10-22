@@ -4,7 +4,7 @@ using System.Linq;
 using Sungero.Core;
 using Sungero.CoreEntities;
 
-namespace RRU.Module1.Client
+namespace RRU.HelpDesk.Client
 {
   public class ModuleFunctions
   {

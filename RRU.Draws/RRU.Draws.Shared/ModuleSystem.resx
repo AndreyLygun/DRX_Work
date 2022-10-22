@@ -58,4 +58,43 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="DisplayName" xml:space="preserve">
+    <value>Архив чертежей</value>
+  </data>
+  <data name="CoverTitle" xml:space="preserve">
+    <value>Чертежи</value>
+  </data>
+  <data name="CoverTab_Draws" xml:space="preserve">
+    <value>Чертежи</value>
+  </data>
+  <data name="CoverGroup_Draws" xml:space="preserve">
+    <value>Чертежи</value>
+  </data>
+  <data name="CoverGroup_Requests" xml:space="preserve">
+    <value>Запросы</value>
+  </data>
+  <data name="CoverAction_DrawList" xml:space="preserve">
+    <value>Чертежи</value>
+  </data>
+  <data name="CoverDescription_DrawList" xml:space="preserve">
+    <value>Все чертежи архива</value>
+  </data>
+  <data name="CoverAction_Stage" xml:space="preserve">
+    <value>Стадии</value>
+  </data>
+  <data name="CoverDescription_Stage" xml:space="preserve">
+    <value>Стадии конструкторской документации</value>
+  </data>
+  <data name="CoverAction_RequestScan" xml:space="preserve">
+    <value>Запрос на сканирование</value>
+  </data>
+  <data name="CoverDescription_RequestScan" xml:space="preserve">
+    <value>Запрос на сканирование чертежа из бумажного архива.</value>
+  </data>
+  <data name="CoverAction_AddDraw" xml:space="preserve">
+    <value>Добавить</value>
+  </data>
+  <data name="CoverDescription_AddDraw" xml:space="preserve">
+    <value>Добавить чертёж в архив</value>
+  </data>
 </root>

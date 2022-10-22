@@ -58,4 +58,19 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="Property_Name" xml:space="preserve">
+    <value>Название</value>
+  </data>
+  <data name="DisplayName" xml:space="preserve">
+    <value>Стадия</value>
+  </data>
+  <data name="CollectionDisplayName" xml:space="preserve">
+    <value>Стадии</value>
+  </data>
+  <data name="AccusativeDisplayName" xml:space="preserve">
+    <value>Стадию</value>
+  </data>
+  <data name="Property_Description" xml:space="preserve">
+    <value>Описание</value>
+  </data>
 </root>

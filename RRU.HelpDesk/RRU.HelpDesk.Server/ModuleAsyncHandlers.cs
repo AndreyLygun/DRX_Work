@@ -4,9 +4,9 @@ using System.Linq;
 using Sungero.Core;
 using Sungero.CoreEntities;
 
-namespace RRU.Module1.Client
+namespace RRU.HelpDesk.Server
 {
-  public class ModuleFunctions
+  public class ModuleAsyncHandlers
   {
 
   }
