@@ -1,9 +1,9 @@
 {
   "$type": "Sungero.Metadata.EntityMetadata, Sungero.Metadata",
-  "NameGuid": "631e5d83-8820-47bc-88fa-62f4a91948e8",
-  "Name": "DocumentTracking",
+  "NameGuid": "c75f1b42-9c19-46f2-80ac-76a33a084e67",
+  "Name": "OrderEmployeeTracking",
   "AccessRightsMode": "NoRight",
-  "BaseGuid": "f4d65d49-d9f0-48fa-bf60-f55153d73c5c",
+  "BaseGuid": "6364c3f8-891d-4cf4-9bf4-23f938805084",
   "CanBeNavigationPropertyType": true,
   "CreationAreaMetadata": {
     "NameGuid": "4d08fccd-8eaf-487e-bf81-7535b0448dcf",
@@ -23,7 +23,7 @@
       "$type": "Sungero.Metadata.NavigationPropertyMetadata, Sungero.Metadata",
       "NameGuid": "68863851-86ec-4a3d-aaa9-ac4d7fcbba89",
       "Name": "OfficialDocument",
-      "EntityGuid": "21875fd0-2890-4f97-b3b6-2016b1e12fdf",
+      "EntityGuid": "cc2fa8c5-7952-46ef-b225-cf09811d444e",
       "IsAncestorMetadata": true,
       "IsReferenceToRootEntity": true,
       "Overridden": [

@@ -21,11 +21,12 @@ namespace RRU.Draws.Client
 
     public virtual void RequestRescan(Sungero.Domain.Client.ExecuteActionArgs e)
     {
-      var performer = Sungero.Company.Employees.Get(16);
-      var r = Sungero.Workflow.SimpleTasks.Create("Прошу выполнить повторное сканирование бумажного чертежа", performer);
-      r.Attachments.Add(_obj);
-      r.ActiveText = "Укажите, почему требуется пересканирование (например, характер и места расположения дефектов).";
-      r.Show();
+        Dialogs.ShowMessage("Запрос на пересканирование.");
+//      var performer = Sungero.Company.Employees.Get(16);
+//      var r = Sungero.Workflow.SimpleTasks.Create("Прошу выполнить повторное сканирование бумажного чертежа", performer);
+//      r.Attachments.Add(_obj);
+//      r.ActiveText = "Укажите, почему требуется пересканирование (например, характер и места расположения дефектов).";
+//      r.Show();
     }
 
     public virtual bool CanRequestRescan(Sungero.Domain.Client.CanExecuteActionArgs e)
