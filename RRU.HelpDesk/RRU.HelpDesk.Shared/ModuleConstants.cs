@@ -9,6 +9,11 @@ namespace RRU.HelpDesk.Constants
     /// <summary>
     /// 
     /// </summary>
+    public const string Constant2 = "";
+
+    /// <summary>
+    /// 
+    /// </summary>
     public const string Constant1 = "";
 
   }

@@ -115,4 +115,19 @@
   <data name="ControlGroup_e2ede6cad5f1453d811dd89e8ec8d7df" xml:space="preserve">
     <value />
   </data>
+  <data name="Action_ShowRequestsOfTheEmployee" xml:space="preserve">
+    <value>Обращение сотрудника</value>
+  </data>
+  <data name="Action_ShowRequestsOfTheEmployeeDescription" xml:space="preserve">
+    <value>Показать все обращения этого сотрудника</value>
+  </data>
+  <data name="Action_ShowRequestsOfTheEmployeeHint" xml:space="preserve">
+    <value>Показать обращения этого сотрудника</value>
+  </data>
+  <data name="Action_ShowRequestsOfTheEmployeeConfirmationMessage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Action_ShowRequestsOfTheEmployeeConfirmationDescription" xml:space="preserve">
+    <value />
+  </data>
 </root>

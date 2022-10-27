@@ -1,0 +1,63 @@
+{
+  "$type": "Sungero.Metadata.SolutionMetadata, Sungero.Metadata",
+  "NameGuid": "a8660e69-6e84-4cbe-8754-2684a0a92f73",
+  "Name": "Almaz",
+  "AsyncHandlers": [],
+  "ClientAssemblyName": "RRU.Almaz.Client",
+  "ClientBaseAssemblyName": "RRU.Almaz.ClientBase",
+  "ClientBaseNamespace": "RRU.Almaz.ClientBase",
+  "ClientNamespace": "RRU.Almaz.Client",
+  "Code": "Almaz",
+  "CompanyCode": "RRU",
+  "Cover": {
+    "NameGuid": "a16dec0c-7ab5-44f3-8f1e-ef7e9f2ac66f",
+    "Actions": [],
+    "Background": null,
+    "Footer": {
+      "NameGuid": "5a1e1227-a2fe-4125-abec-c6c9e369c72a",
+      "BackgroundPosition": "Stretch"
+    },
+    "Groups": [],
+    "Header": {
+      "NameGuid": "4d14aad5-d47c-4fed-a0ce-4e03c9935bc8",
+      "BackgroundPosition": "Stretch"
+    },
+    "Tabs": []
+  },
+  "DesktopViews": [],
+  "ExplorerTreeOrder": [
+    {
+      "ItemId": "12173afc-249d-4748-8d6b-ee424c4f6d2e"
+    }
+  ],
+  "IconResourcesKeys": [],
+  "Importance": "Medium",
+  "InterfaceAssemblyName": "Sungero.Domain.Interfaces",
+  "InterfaceNamespace": "RRU.Almaz",
+  "OrderedSpecialFolders": [],
+  "PublicStructures": [],
+  "ResourceInterfaceAssemblyName": "Sungero.Domain.Interfaces",
+  "ResourceInterfaceNamespace": "RRU.Almaz",
+  "ResourcesKeys": [],
+  "ServerAssemblyName": "RRU.Almaz.Server",
+  "ServerNamespace": "RRU.Almaz.Server",
+  "SharedAssemblyName": "RRU.Almaz.Shared",
+  "SharedNamespace": "RRU.Almaz.Shared",
+  "SpecialFolders": [],
+  "Version": "0.0.1.0",
+  "Widgets": [],
+  "Versions": [
+    {
+      "Type": "SolutionMetadata",
+      "Number": 8
+    },
+    {
+      "Type": "ModuleMetadata",
+      "Number": 8
+    },
+    {
+      "Type": "DomainApi",
+      "Number": 3
+    }
+  ]
+}

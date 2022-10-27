@@ -13,7 +13,7 @@ namespace RRU.HelpDesk
     public override void Showing(Sungero.Presentation.FormShowingEventArgs e)
     {
       if (_obj.LifeCycle == Request.LifeCycle.Closed) {
-        _obj.State.IsEnabled = true;
+        _obj.State.IsEnabled = false;
       }
       
     }

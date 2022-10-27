@@ -24,7 +24,7 @@ namespace RRU.HelpDesk
       _obj.Responsible = Sungero.Company.Employees.Current;
       _obj.LifeCycle = Request.LifeCycle.NewRequest;      
       _obj.CreatedDate = Calendar.Now;
-      
+      _obj.Name = "Тема обращения будет сформирована автоматически";
     }
   }
 

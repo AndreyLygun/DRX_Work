@@ -2,6 +2,16 @@
   "$type": "Sungero.Metadata.EntityMetadata, Sungero.Metadata",
   "NameGuid": "f5fae84a-257e-4218-83ad-b32ee0ac73b2",
   "Name": "Request",
+  "Actions": [
+    {
+      "NameGuid": "b4fa979f-42da-40be-a6f1-76b3d675178c",
+      "Name": "ReopenRequest",
+      "ActionArea": "Card",
+      "GenerateHandler": true,
+      "LargeIconName": null,
+      "SmallIconName": null
+    }
+  ],
   "BaseGuid": "04581d26-0780-4cfd-b3cd-c2cafc5798b0",
   "CanBeNavigationPropertyType": true,
   "CanBeSearch": true,
@@ -39,7 +49,7 @@
           "RightSide": "Today"
         }
       ],
-      "PreviousStyleSelectorGuid": "3c7095b0-33b4-4714-bd93-b381067c3a11",
+      "PreviousStyleSelectorGuid": "914bda75-d6a6-4c80-b47f-349fec9580d9",
       "Style": {
         "NameGuid": "d45614d4-080e-48f0-bc69-87055ffdf994",
         "ForegroundBrushName": "BlueEntityColor"
@@ -55,7 +65,7 @@
           "RightSide": "NewRequest"
         }
       ],
-      "PreviousStyleSelectorGuid": "caba78b6-0c44-44d8-a378-5687b77ac224",
+      "PreviousStyleSelectorGuid": "3c7095b0-33b4-4714-bd93-b381067c3a11",
       "Style": {
         "NameGuid": "b384b8b2-d244-4e28-9a66-1916aa10f7d7",
         "ForegroundBrushName": "BlueEntityColor",
@@ -326,6 +336,7 @@
       "Name": "Name",
       "Code": "Name",
       "IsDisplayValue": true,
+      "IsEnabled": false,
       "IsQuickSearchAllowed": true,
       "ListDataBinderTypeName": "Sungero.Presentation.CommonDataBinders.StringEditorToStringBinder",
       "PreviousPropertyGuid": "1dcedc29-5140-4770-ac92-eabc212326a1"
@@ -335,6 +346,9 @@
       "NameGuid": "7caab6ac-66d7-430c-a9f0-72b363afbd6b",
       "Name": "Number",
       "Code": "Number",
+      "HandledEvents": [
+        "ChangedShared"
+      ],
       "IsEnabled": false,
       "IsRequired": true,
       "IsUnique": true,
@@ -346,6 +360,9 @@
       "NameGuid": "2439ab7c-5057-4c19-8682-9ef4a43fdb79",
       "Name": "Description",
       "Code": "Description",
+      "HandledEvents": [
+        "ChangedShared"
+      ],
       "IsRequired": true,
       "ListDataBinderTypeName": "Sungero.Presentation.CommonDataBinders.StringEditorToStringBinder",
       "PreviousPropertyGuid": "7caab6ac-66d7-430c-a9f0-72b363afbd6b"
@@ -355,6 +372,9 @@
       "NameGuid": "8904d032-3d3e-47d7-9551-6a87f4010b0e",
       "Name": "CreatedDate",
       "Code": "CreatedDate",
+      "HandledEvents": [
+        "ChangedShared"
+      ],
       "IsLoadEagerly": true,
       "IsRequired": true,
       "ListDataBinderTypeName": "Sungero.Presentation.CommonDataBinders.DateTimeEditorToDateTimeBinder",
@@ -375,6 +395,9 @@
       "Code": "RequestKind",
       "EntityGuid": "5d9d2565-4555-488d-9389-ef3393985691",
       "FlatListInStandaloneLookup": true,
+      "HandledEvents": [
+        "ChangedShared"
+      ],
       "IsRequired": true,
       "ListDataBinderTypeName": "Sungero.Presentation.CommonDataBinders.DropDownEditorToNavigationBinder",
       "PreviousPropertyGuid": "713503ea-705a-4824-8711-7a2b9fec8b2c"
@@ -455,13 +478,34 @@
     }
   ],
   "PublicStructures": [],
-  "ResourcesKeys": [],
+  "ResourcesKeys": [
+    "ReqeustNameWillBeGeneratedAutomatically"
+  ],
   "RibbonCardMetadata": {
     "NameGuid": "e52a0fef-86b3-4ac9-a40e-95d40ccda3a7",
     "Name": "RibbonCard",
     "Categories": [],
-    "Elements": [],
-    "Groups": [],
+    "Elements": [
+      {
+        "$type": "Sungero.Metadata.RibbonActionButtonMetadata, Sungero.Metadata",
+        "NameGuid": "15ae0e5a-5e90-489e-a6e1-55812ca6486a",
+        "Name": "ActionButton",
+        "ActionGuid": "b4fa979f-42da-40be-a6f1-76b3d675178c",
+        "ButtonSize": "Large",
+        "Index": 0,
+        "ParentGuid": "19756983-1cbd-4979-a398-10583b080969"
+      }
+    ],
+    "Groups": [
+      {
+        "NameGuid": "19756983-1cbd-4979-a398-10583b080969",
+        "Name": "Request",
+        "IconName": null,
+        "Index": 21,
+        "ParentGuid": "21a31627-5f58-4416-8c4a-90f538ee2e57",
+        "SmallIconName": null
+      }
+    ],
     "IsAncestorMetadata": true,
     "Pages": [],
     "RibbonKind": "Card"
